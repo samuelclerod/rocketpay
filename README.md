@@ -2,11 +2,25 @@
 
 To start your Phoenix server:
 
+  * Create docker postgres database `docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres`
   * Install dependencies with `mix deps.get`
   * Create and migrate your database with `mix ecto.setup`
   * Start Phoenix endpoint with `mix phx.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+
+
+## What I lean
+
+  * Create a phoenix project
+  * Configure ElixirLS, Elixir Linter and Credo
+  * Understand a Phoenix Project Structure
+  * Phoenix Routes and Controllers
+  * Understand Elixir Imutability Principle
+  * Understand Pattern Matching
+  * Understand Pipe Operator
+  * Understand Enum and Stream
+  * Create and execute automated tests
 
 Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
