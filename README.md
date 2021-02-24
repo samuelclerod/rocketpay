@@ -10,7 +10,7 @@ To start your Phoenix server:
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 
-## What I learn
+## What I`ve learn ?
 
   * Create a phoenix project
   * Configure ElixirLS, Elixir Linter and Credo
@@ -22,9 +22,11 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
   * Understand Enum and Stream
   * Create and execute automated tests
   * Create migrations with Ecto
+  * Create and using tables witch Ecto Schema
   * Validate data with Changeset and Pattern Matching
   * Combine Bcrypt and Changeset and virtual fields to create hashed password
-  * Use facade to separate business logic modules
+  * Use Repo module
+  * Use facade to separate business logic
   * Response data with maps
 
 Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
