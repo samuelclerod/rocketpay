@@ -20,7 +20,7 @@ defmodule RocketpayWeb.UsersController do
     conn
     |> put_status(:bad_request)
     |> put_view(RocketpayWeb.ErrorView)
-    render("400.json", result: result)
+    |> render("400.json", result: result)
   end
 
 end
