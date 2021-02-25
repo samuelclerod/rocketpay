@@ -16,18 +16,23 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
   * Configure ElixirLS, Elixir Linter and Credo
   * Understand a Phoenix Project Structure
   * Phoenix Routes and Controllers
-  * Understand Elixir Imutability Principle
-  * Understand Pattern Matching
-  * Understand Pipe Operator
-  * Understand Enum and Stream
+  * Elixir Imutability Principle
+  * Pattern Matching
+  * Pipe Operator
+  * Enum and Stream
   * Create and execute automated tests
   * Create migrations with Ecto
   * Create and using tables witch Ecto Schema
   * Validate data with Changeset and Pattern Matching
-  * Combine Bcrypt and Changeset and virtual fields to create hashed password
+  * Combine Bcrypt and Changeset and virtual fields to create hashed fields
   * Use Repo module
   * Use facade to separate business logic
   * Response data with maps
+  * Handle controller errors with Fallback Controller
+  * Simple schemas associations (:belongs_to and :has_one)
+  * Retrive associated data with Repo.preload
+  * Transaction management with Ecto.Multi
+  * Apply constrain in migrations
 
 Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
